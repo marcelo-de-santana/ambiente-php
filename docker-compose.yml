@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  php-composer:
+    container_name: php-composer
+    image: php-composer:1.0
+    build: .
+    volumes:
+      - .:/app
